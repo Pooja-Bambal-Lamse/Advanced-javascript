@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title> EXPENSE TRACKER </title>
+    </head>
+    <body>
+        <h1>Expense Tracker</h1>
+        <div class="basic-info">
+            <label for="expense-amount">Choose Expense Amount : </label>
+            <input type="text" id="amt">
+
+            <label for="description">Choose Description : </label>
+            <input type="text" id="des">
+
+            <label for="category">Choose a Category : </label>
+            <select name="form select" id="cat">
+                <option value="Movie">Movie</option>
+                <option value="Fuel">Fuel</option>
+                <option value="Grocery">Grocery</option>
+                <option value="Electricity">Electricity</option>
+            </select> 
+            <button type="click" onclick="addExpense()">Add Expense</button>
+        </div>
+        <div id="arrayobj">
+            
+          
+        </div>
+        <script src="./index.js"> 
+        </script>
+    </body>
+</html>
